@@ -1,0 +1,1 @@
+c:\users\derrick\documents\visual studio 2015\Projects\TimesheetsManager\TimesheetsManager\bin\Debug\TimesheetsManager.exe.config
