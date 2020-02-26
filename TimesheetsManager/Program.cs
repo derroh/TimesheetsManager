@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using DevExpress.UserSkins;
 using DevExpress.Skins;
 using DevExpress.LookAndFeel;
+using System.Drawing;
 
 namespace TimesheetsManager
 {
@@ -20,7 +21,12 @@ namespace TimesheetsManager
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new Form1());
+            SkinManager.EnableFormSkins();
+
+            UserLookAndFeel.Default.SetSkinStyle("Metropolis");
+
+            DevExpress.Utils.AppearanceObject.DefaultFont = new Font("Segoe UI", 8.25F);
+            Application.Run(new Dashboard());
         }
     }
 }
