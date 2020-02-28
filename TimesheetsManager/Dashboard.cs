@@ -28,5 +28,15 @@ namespace TimesheetsManager
         {
             Thread.Sleep(8000);
         }
+
+        private void btn_windowsinfo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            string strSysInfo = string.Empty;
+
+            if (Utilities.SystemInformation.GetMsinfo32Path(ref strSysInfo))
+            {
+                Utilities.SystemInformation.StartSysInfo(strSysInfo);
+            }
+        }
     }
 }
