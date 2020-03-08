@@ -89,3 +89,4 @@ C:\Users\Derrick\documents\visual studio 2015\Projects\TimesheetsManager\Timeshe
 C:\Users\Derrick\documents\visual studio 2015\Projects\TimesheetsManager\TimesheetsManager\obj\Debug\TimesheetsManager.exe.licenses
 C:\Users\Derrick\documents\visual studio 2015\Projects\TimesheetsManager\TimesheetsManager\obj\Debug\TimesheetsManager.exe
 C:\Users\Derrick\documents\visual studio 2015\Projects\TimesheetsManager\TimesheetsManager\obj\Debug\TimesheetsManager.pdb
+C:\Users\Derrick\Documents\Visual Studio 2015\Projects\TimesheetsManager\TimesheetsManager\obj\Debug\TimesheetsManager.Login.resources

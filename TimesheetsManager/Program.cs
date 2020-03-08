@@ -26,7 +26,7 @@ namespace TimesheetsManager
             UserLookAndFeel.Default.SetSkinStyle("Metropolis");
 
             DevExpress.Utils.AppearanceObject.DefaultFont = new Font("Segoe UI", 8.25F);
-            Application.Run(new Dashboard());
+            Application.Run(new Login());
         }
     }
 }
